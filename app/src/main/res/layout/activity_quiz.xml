@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".QuizActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00BDFF84"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Question 1 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="1. Which is correct for using any image with the name trainstation? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_one_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="transition"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/transition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android:src=@drawable/trainstation"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Src=@drawable/trainstation"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Src=@drawable/trainstation"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Question 2 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="2.What is the name of the layout file for the main activity?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_two_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MainActivity.java"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="build.gradle"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/mainact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="activity_main.xml"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AndroidManifest.xml"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="3. Which tool do you use to create a new emulator?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_three_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVD Manager"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Device Monitor"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SDK Manager"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theme Editor"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+
+        <!-- Question 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="4. What is the correct signature for a method used with the android:onClick XML attribute?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/num_four_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public void callMethod()"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="private void callMethod(View view)"
+                android:textSize="16sp" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public boolean callMethod(View view)"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/fournumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="public void callMethod(View view)"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="5. Which listener is called for the device to register the enter key press? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <!-- Question 5 -->
+
+        <RadioGroup
+            android:id="@+id/num_five_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OnContextClickListener"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="onClickListener"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/listener"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="onKeyListener"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="onHoverListener"
+                android:textSize="16sp" />
+
+
+        </RadioGroup>
+
+        <!-- Question 6 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="6.What is the system image that the virtual device was set up to support? "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Please enter your answer"
+            android:inputType="text" />
+
+        <!-- Question 7 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="7.Which component property should be changed to a name that is specific of the components use?  "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:hint="Please enter your answer"
+            android:inputType="text" />
+
+
+        <!-- Question 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="8. Which file do you alter the image displayed by the ImageView in?"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#091A3F"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/activity_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity_main_xml"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/drawable_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drawable"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Android_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AndroidManifest,xml"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/Main_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:text="MainActivity"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>
